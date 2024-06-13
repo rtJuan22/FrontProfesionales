@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="style.css">
   <title>Atención Profesional</title>
 </head>
@@ -11,11 +12,11 @@
 <header>
   <nav class="navbar">
     <div class="logo">
-      <img src="LogoTranquilidad.jpg" alt="Logo de Atención Profesional">
+      <img src="../Imagenes/LogoTranquilidad.jpg" alt="Logo de Atención Profesional">
       <span>Atención Profesional</span>
     </div>
     <div class="servicios">
-      <span id="servicios-button">Servicios</span>
+      <span>Servicios</span>
       <div class="submenu">
         <ul>
           <li>Biblioterapia</li>
@@ -27,7 +28,7 @@
     </div>
     <div class="user-info">
       <span>Juanito Alimaña</span>
-      <img class="imagen-usuario" src="FotoUsuario.png" alt="Foto de perfil del usuario">
+      <img class="imagen-usuario" src="../Imagenes/FotoUsuario.png" alt="Foto de perfil del usuario">
     </div>
   </nav>
 </header>
@@ -63,6 +64,52 @@
                     <option value="severo">Severo</option>
                 </select>
             </div>
+            <div class="pregunta">
+              <label for="tratamiento">¿Has recibido tratamiento profesional para tus problemas anteriormente?</label><br>
+              <input type="radio" id="si" name="tratamiento" value="si">
+              <label for="si">Sí</label>
+              <input type="radio" id="no" name="tratamiento" value="no">
+              <label for="no">No</label>
+          </div>
+          <div class="pregunta">
+              <label for="problemas">¿Qué tipos de problemas estás experimentando?</label><br>
+              <select id="problemas" name="problemas">
+                  <option value="ansiedad">Ansiedad</option>
+                  <option value="depresion">Depresión</option>
+                  <option value="estres">Estrés</option>
+              </select>
+          </div>
+          <div class="pregunta">
+              <label for="impacto">¿En qué medida te afectan estos problemas en tu vida diaria?</label><br>
+              <select id="impacto" name="impacto">
+                  <option value="minimo">Mínimo</option>
+                  <option value="moderado">Moderado</option>
+                  <option value="severo">Severo</option>
+              </select>
+          </div>
+          <div class="pregunta">
+            <label for="tratamiento">¿Has recibido tratamiento profesional para tus problemas anteriormente?</label><br>
+            <input type="radio" id="si" name="tratamiento" value="si">
+            <label for="si">Sí</label>
+            <input type="radio" id="no" name="tratamiento" value="no">
+            <label for="no">No</label>
+        </div>
+        <div class="pregunta">
+            <label for="problemas">¿Qué tipos de problemas estás experimentando?</label><br>
+            <select id="problemas" name="problemas">
+                <option value="ansiedad">Ansiedad</option>
+                <option value="depresion">Depresión</option>
+                <option value="estres">Estrés</option>
+            </select>
+        </div>
+        <div class="pregunta">
+            <label for="impacto">¿En qué medida te afectan estos problemas en tu vida diaria?</label><br>
+            <select id="impacto" name="impacto">
+                <option value="minimo">Mínimo</option>
+                <option value="moderado">Moderado</option>
+                <option value="severo">Severo</option>
+            </select>
+        </div>
         </form>
     </div>
 
@@ -74,19 +121,25 @@
   <footer class="footer">
     <div class="footer-links">
         <div class="contactanos">
-            <span>Contactanos</span>
-            <img src="Whatsapp.png" alt="Whatsapp">
-            <img src="Telegram.png" alt="Telegram">
-          </div>
+          <span>Contactanos</span>
+            <div class="imagenes-container">
+              <img class="imagen-footer" src="Whatsapp.png" alt="Whatsapp">
+              <img class="imagen-footer" src="Telegram.png" alt="Telegram">
+            </div>
         </div>
+      </div>
       <div class="canales-atencion">
         <span>Canales de atencion</span>
-        <img src="correo.png" alt="Correo">
+          <div class="imagenes-container">
+            <img class="imagen-footer" src="correo.png" alt="Correo">
+          </div>
       </div>
       <div class="social-media">
         <span>Redes Sociales</span>
-        <img src="facebook.png" alt="Facebook">
-        <img src="instagram.png" alt="Instagram">
+          <div class="imagenes-container">
+            <img class="imagen-footer" src="facebook.png" alt="Facebook">
+            <img class="imagen-footer" src="instagram.png" alt="Instagram">
+          </div>
       </div>
     </div>
     <div class="texto-footer">
@@ -94,4 +147,4 @@
     </div>
   </footer>
 </body>
-</html>
+</html> 

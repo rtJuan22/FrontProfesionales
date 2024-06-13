@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header .user-info {
+    display: flex;
+    align-items: center;
+}
+
+header .user-info span {
+    margin-right: 10px;
+}
+
+header .user-info img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.appointment-options {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.option {
+    text-align: center;
+    margin: 20px;
+}
+
+.option img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #6200ea;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-links div {
+    display: flex;
+    align-items: center;
+}
+
+.footer-links div span {
+    margin-right: 10px;
+}
+
+.footer-links div img {
+    height: 24px;
+    margin: 0 5px;
+}

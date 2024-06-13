@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto; /* Añadimos un poco de margen arriba y abajo para centrar */
+    padding: 20px;
+    border: 2px solid purple; /* Agregamos un borde morado alrededor del contenido */
+    border-radius: 10px; /* Agregamos bordes redondeados */
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .formulario {
+    background-color: #fff; /* Fondo blanco para el formulario */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formulario h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .formulario label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .formulario input[type="text"],
+  .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formulario textarea {
+    height: 100px; /* Altura fija para el textarea */
+  }
+  
+  .formulario button {
+    float: right; /* Colocamos el botón a la derecha */
+    background-color: #8A66FD;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #6a1b9a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom-left-radius: 10px; /* Añadimos bordes redondeados al pie de página */
+    border-bottom-right-radius: 10px;
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+  }
+  
+  .footer p:last-child {
+    margin-bottom: 0;
+  }

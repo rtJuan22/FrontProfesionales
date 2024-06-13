@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+}
+
+.logo img {
+    height: 50px;
+}
+
+h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em;
+    color: #6a1b9a;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info span {
+    margin-right: 10px;
+}
+
+.user-info img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.appointments {
+    width: 30%;
+}
+
+.appointment {
+    border: 1px solid #6a1b9a;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.calendar {
+    width: 50%;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.calendar-header button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: #6a1b9a;
+}
+
+.calendar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar th, .calendar td {
+    width: 14.28%;
+    text-align: center;
+    padding: 5px;
+}
+
+.calendar th {
+    background-color: #f0f0f0;
+}
+
+.calendar td {
+    border: 1px solid #ddd;
+}
+
+.accept-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #6a1b9a;
+    color: #ffffff;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+footer nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    height: 30px;
+    margin: 0 5px;
+}

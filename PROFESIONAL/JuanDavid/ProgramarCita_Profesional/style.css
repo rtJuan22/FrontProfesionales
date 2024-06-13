@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+}
+
+.logo img {
+    height: 50px;
+}
+
+h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em;
+    color: #6a1b9a;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info span {
+    margin-right: 10px;
+}
+
+.user-info img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.appointment-requests {
+    width: 60%;
+}
+
+.appointment-request {
+    border: 1px solid #6a1b9a;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.appointment-request p {
+    margin: 5px 0;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.accept-button, .decline-button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.accept-button {
+    background-color: #6a1b9a;
+    color: white;
+}
+
+.decline-button {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #6a1b9a;
+    color: #ffffff;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+footer nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    height: 30px;
+    margin: 0 5px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informe de Consulta Psicológica</title>
+  <link rel="stylesheet" href="informe.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Atención Profesional</h1>
+      <p>Especialista: Diego Armando M.</p>
+    </div>
+    <form class="formulario">
+      <h2>Datos Generales</h2>
+      <label for="nombres">Apellidos y Nombres:</label>
+      <input type="text" id="nombres" name="nombres">
+      <label for="sexo">Sexo:</label>
+      <input type="text" id="sexo" name="sexo">
+      <label for="edad">Edad:</label>
+      <input type="text" id="edad" name="edad">
+      <label for="lugar_nacimiento">Lugar de Nacimiento:</label>
+      <input type="text" id="lugar_nacimiento" name="lugar_nacimiento">
+      <label for="ocupacion">Ocupación:</label>
+      <input type="text" id="ocupacion" name="ocupacion">
+      <label for="fecha_consulta">Fecha de Consulta:</label>
+      <input type="text" id="fecha_consulta" name="fecha_consulta">
+      <label for="fecha_informe">Fecha de Informe:</label>
+      <input type="text" id="fecha_informe" name="fecha_informe">
+      <label for="evaluador">Evaluador:</label>
+      <input type="text" id="evaluador" name="evaluador">
+      <label for="tecnicas_pruebas">Técnicas y Pruebas Aplicadas:</label>
+      <textarea id="tecnicas_pruebas" name="tecnicas_pruebas"></textarea>
+      <button type="button" onclick="siguientePaso()">Siguiente</button>
+    </form>
+    <div class="footer">
+      <div class="contacto">
+        <p>Contactanos</p>
+        <p>Canales de Atención</p>
+        <p>Redes Sociales</p>
+      </div>
+      <p>¿Quiénes somos?</p>
+    </div>
+  </div>
+  <script>
+    function siguientePaso() {
+      // Aquí podrías agregar el código para procesar los datos del formulario y pasar al siguiente paso del informe.
+      // Por ejemplo, podrías enviar los datos a un servidor para su procesamiento.
+      console.log("Siguiente paso...");
+    }
+  </script>
+</body>
+</html>

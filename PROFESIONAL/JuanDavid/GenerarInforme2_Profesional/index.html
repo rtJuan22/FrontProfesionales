@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informe de Consulta Psicológica</title>
+  <link rel="stylesheet" href="informe2.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Atención Profesional</h1>
+      <p>Especialista: Diego Armando M.</p>
+    </div>
+    <form class="formulario">
+      <h2>Observación</h2>
+      <textarea id="observacion" name="observacion" rows="5"></textarea>
+      <h2>Indagación</h2>
+      <textarea id="indagacion" name="indagacion" rows="5"></textarea>
+      <h2>Confirmación</h2>
+      <textarea id="confirmacion" name="confirmacion" rows="5"></textarea>
+      <h2>Diagnóstico</h2>
+      <textarea id="diagnostico" name="diagnostico" rows="5"></textarea>
+      <h2>Prónostico</h2>
+      <textarea id="pronostico" name="pronostico" rows="5"></textarea>
+      <h2>Sugerencias</h2>
+      <textarea id="sugerencias" name="sugerencias" rows="5"></textarea>
+      <button type="button" onclick="enviarFormulario()">Enviar</button>
+    </form>
+    <div class="footer">
+      <div class="contacto">
+        <p>Contactanos</p>
+        <p>Canales de Atención</p>
+        <p>Redes Sociales</p>
+      </div>
+      <p>¿Quiénes somos?</p>
+    </div>
+  </div>
+  <script>
+    function enviarFormulario() {
+      // Aquí podrías agregar el código para procesar los datos del formulario y enviarlos.
+      console.log("Enviando formulario...");
+    }
+  </script>
+</body>
+</html>
